@@ -49,6 +49,7 @@ public class Problem123 {
         return true;
     }
 
+    // O(n) time complexity
     public static void printVerbs(String prefix, String endings1[]) {
         for (int i = 0; i < personalPronouns.length; i++) {
             System.out.println(personalPronouns[i] + " " + prefix + endings1[i]);
